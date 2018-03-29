@@ -1,1 +1,1 @@
-# oynaqazan.az_2016
+# Oynaqazan.az was published on December 2016
