@@ -1,0 +1,497 @@
+footer{
+    text-align: center;
+    color: #0077ff;
+    font-weight: bold;
+}
+/*login sehifesi*/
+/*facebook pop up*/
+.fb_page_like_plugin{
+    text-align: center;
+    margin: 15px 0;
+    width: 100%;
+}
+.f_p_1{
+    position: relative;
+    bottom: -2px;
+    right: 5px;
+}
+/*facebook pop up*/
+.panel-heading .active{
+    color: #0077ff !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.panel-login {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align:center;
+}
+.panel-login>.panel-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+    font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"],.sifre_berpa_email {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-login,#sifre_berpa_submit {
+    background-color: #59B2E0;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-color: #59B2E6;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #53A3CD;
+    border-color: #53A3CD;
+}
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+
+.btn-register,.qaydalar_pop_up button {
+    background-color: #1CB94E;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus,
+.qaydalar_pop_up button:hover,
+.qaydalar_pop_up button:focus {
+    color: #fff;
+    background-color: #1CA347;
+    border-color: #1CA347;
+}
+.qaydalar_span{
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+}
+.qaydalar_span span{
+    color: #0077ff;
+    cursor: pointer;
+    text-decoration:underline;
+}
+.qaydalar_back{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.4;
+    z-index: 4000;
+    display: none;
+}
+.qaydalar_pop_up{
+    position: absolute;
+    z-index: 5000;
+    top: 20px;
+    display: none;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #f2f2f2;
+    border-radius: 10px;
+    color: #0077ff;
+    font-size: 14px;
+    padding: 15px;
+}
+.qaydalar_pop_up button{
+    padding: 10px 20px;
+}
+.qaydalar_pop_up span{
+    color: #e6b800;
+}
+.qaydalar_pop_up #vacib_qayda{
+    color: red;
+}
+.panel-body{
+    padding-top: 0px !important;
+}
+.modal-content{
+    border:none !important;
+}
+.xeta_alt{
+    padding: 0px 5px;
+    border-radius: 0;
+    display: none;
+}
+
+
+
+/*qeydiyyat tamamlananda modali aktiv etmek ucun klik olunacaq*/
+.qeydiyyat_tamamlandi_alert_btn,.sifre_berpa_pop_up_btn{
+    display: none;
+}
+.qeydiyyat_tamamlandi_alert_main button{
+    font-weight: 900;
+    border: 0;
+    color: black;
+    z-index: 1000;
+    font-size: 21px;
+    position: absolute;
+    right: 5px;
+}
+.not_text{
+    background: #0099ff;
+    color: white;
+    padding:10px;
+    border-radius: 5px;
+}
+#sifre_berpa_id .modal-content{
+    padding: 15px;
+    background: cornsilk;
+}
+/*login sehifesi*/
+
+
+
+/*oyun sehifesi*/
+.qadin_geyimleri_fb{
+    position: fixed;
+    left: 5px;
+    top: 100px;
+    display: none;
+}
+.mmsd_fb{
+    position: fixed;
+    right: 5px;
+    top: 100px;
+    display: none;
+}
+.qadin_geyimleri_fb p,.mmsd_fb p{
+    text-align: center;
+    font-size: 16px;
+    color: #0099ff;
+    font-weight: bold;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.oyun_body{
+    font-family:  sans-serif;
+}
+.fb_oynaqazan_center{
+    text-align: center;
+}
+.sifirla{
+    background: #0099ff;
+    border-color: #0077ff;
+    float: left;
+}
+.sifirla_popup{
+    background: #0099ff;
+    border-color: #0077ff;
+}
+.sifirla:hover,.sifirla:focus,.sifirla:active,.table_top_btn:hover,.table_top_btn:focus,.table_top_btn:active,.sifirla_popup:hover,.sifirla_popup:focus,.sifirla_popup:active{
+    background: #06ade5 !important;
+    border-color: #04a5db !important;
+}
+.black_background_alert{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    background: black;
+    opacity:0.4;
+    z-index: 500;
+    display: none;
+}
+.more_click_than_150_alert_main{
+    text-align: center;
+    position: absolute;
+    display: none;
+    margin-top: 30px;
+    z-index:600;
+}
+.more_click_than_150_alert_main button{
+    margin-top: 15px;
+}
+.sekil_divleri_main{
+    float: left;
+}
+.navbar{
+    background: #0077ff;
+    border-color: #0055ff;
+}
+.top_10{
+    padding-right: 10px;
+}
+.nav li a{
+    color: white !important;
+}
+.xaliniz_var,.qizil_xal{
+    display: block;
+    padding: 15px 15px;
+    color: white;
+}
+.xaliniz_var .badge,.qizil_xal .badge{
+    background: cadetblue;
+}
+.xal_qazandiniz_notification{
+    width: 255px;
+    margin-left: 20px;
+    display: none;
+}
+.qizil_xal .badge span{
+    font-size: 14px;
+    color: gold;
+}
+/*oyun sehifesi*/
+
+
+
+/*users ve gold_users sehifesi*/
+.table_ekran_bildiris_yazisi_p{
+    display: none;
+}
+.qirmizi_bildiris_yazisi{
+    font-weight: bold;
+    color: red;
+}
+.qirmizi_bildiris_yazisi span{
+    color: #e5c100 !important;
+}
+.qirmizi_bildiris_yazisi a{
+    color: #0077ff;
+    text-decoration: underline;
+}
+.table_top_btn{
+    background: #0099ff;
+    border-color: #0077ff;
+    color: white;
+    margin-bottom: 15px;
+    margin-right: 13px;
+}
+.qizil_xal_btn{
+    background-color: #e5c100;
+    border-color: #ccac00;
+    font-size: 14px;
+    font-weight: 800;
+}
+.table_top_btn:hover,.table_top_btn:active,.table_top_btn:focus{
+    background: #2882bf;
+    color: white;
+}
+.qizil_xal_btn:hover,.qizil_xal_btn:active,.qizil_xal_btn:focus{
+    background-color: gold !important;
+    border-color: #e5c100 !important;
+}
+.table-responsive{
+    margin-top: 50px;
+}
+.table-center td,.table-center th{
+    text-align: center;
+}
+.table-center th{
+    background: #0099ff;
+    color: white;
+}
+.kisi_reng{
+    color: #2fa1e2;
+}
+.qadin_reng{
+    color: #fc4b95;
+}
+.qizil_xal_th,.qizil_xal_td{
+    color:#e5c100 !important;
+}
+.qizil_xal_td{
+    font-weight: bold;
+    font-size: 18px;
+}
+/*users ve gold_users sehifesi*/
+
+
+
+/*adamin yazdiqlari*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f2f2f2;
+}
+
+#boxcard {
+    z-index: 1;
+    position: relative;
+    left:0.5%;
+    opacity: 0;
+}
+#boxcard div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 4px solid #1ab2ff;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.5);
+    background: #66ccff;
+    z-index: 2;
+}
+#boxcard div img {
+    display: none;
+    border-radius: 10px;
+    z-index: 3;
+    width: 100%;
+}
+#boxbuttons {
+    margin: 20px;
+    float: left;
+    margin-left: 7.5px;
+}
+#boxbuttons h4{
+    color: #0055ff;
+}
+/*adamin yazdiqlari*/
+@media (max-width: 1145px){
+    .qadin_geyimleri_fb,.mmsd_fb{
+        display: none !important;
+    }
+}
+@media (max-width: 768px) {
+    #boxcard div{
+        width: 138px;
+        height: 138px;
+    }
+    .top_10{
+        padding-right: 15px;
+    }
+    .login_body {
+        padding-top: 40px;
+    }
+    .facede_paylas_min_xal_qazan{
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    .table_ekran_bildiris_yazisi_p{
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+    #boxcard div {
+        width: 132px;
+        height: 132px;
+    }
+}
+@media (max-width: 500px) {
+    .more_click_than_150_alert_main p{
+        font-size: 15px;
+    }
+    #boxcard div{
+        width: 85px;
+        height:85px;
+    }
+    .nav li a,.xaliniz_var,.qizil_xal{
+        font-size: 13.5px;
+    }
+    .table-center th{
+        font-size: 14px;
+    }
+    .table-center td{
+        font-size: 13px;
+    }
+}
+@media (max-width: 410px) {
+    #boxcard div{
+        width: 76px;
+        height: 76px;
+    }
+    .fb_pop_up{
+        width: 360px;
+    }
+}
+@media (max-width: 360px) {
+    #boxcard div{
+        width: 72px;
+        height: 72px;
+    }
+    .fb_pop_up{
+        width: 320px;
+    }
+}
+@media (max-width: 350px) {
+    #login-form-link,#register-form-link{
+        font-size: 13px;
+    }
+    .sifirla{
+        font-size: 13px;
+        padding: 8px;
+    }
+    .nav li a,.xaliniz_var,.qizil_xal{
+        font-size: 12.5px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 320px) {
+    #boxcard div{
+        width: 62px;
+        height: 62px;
+    }
+}
+@media (max-width: 317px) {
+    #boxcard div{
+        width: 64.3px;
+        height:64.3px;
+    }
+}
